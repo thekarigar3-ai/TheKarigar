@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Karigar handcrafted Chaniya Choli collection. Order directly on WhatsApp.">
+  <title>The Karigar | Chaniya Choli</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-strip" aria-label="Current festive offers"><span>✦ FESTIVE EDIT ✦</span><strong>60% OFF</strong><span>on selected Chaniya Choli</span><span class="dot">•</span><strong>BUY 3 GET 4</strong></div>
+
+  <header class="header">
+    <a class="brand" href="#home" aria-label="The Karigar home"><span class="brand-mark">TK</span><span><b>The Karigar</b><small>Handcrafted Festive Wear</small></span></a>
+    <nav aria-label="Main navigation"><a href="#collection">Collection</a><a href="#about">Our Story</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></nav>
+    <button class="cart-btn" id="cartBtn" type="button">Bag <span id="cartCount">0</span></button>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">THE FESTIVE COLLECTION</p>
+        <h1 id="hero-title">Wear the art.<br><em>Own the moment.</em></h1>
+        <p class="hero-text">Statement Chaniya Cholis crafted for Navratri, weddings, garba nights and every celebration worth dressing up for.</p>
+        <div class="hero-actions"><a class="btn primary" href="#collection">Shop Collection</a><a class="btn ghost" href="https://wa.me/917413902258?text=Hi%20The%20karigar%27s%2C%20I%27d%20like%20to%20see%20your%20Chaniya%20Choli%20collection." target="_blank" rel="noopener">WhatsApp Us ↗</a></div>
+        <div class="hero-points"><span>✓ 50+ designs</span><span>✓ WhatsApp ordering</span><span>✓ New drops regularly</span></div>
+      </div>
+      <div class="hero-art"><div class="sale-sticker"><b>60%</b><span>OFF</span></div><div class="hero-image-wrap"><img src="home_1.png" alt="Festive Indian fashion"></div><div class="hero-card"><small>FEATURED DROP</small><strong>Rajwadi Edit</strong><span>From ₹2,500</span></div></div>
+    </section>
+
+    <section class="promo-grid" aria-label="Store offers">
+      <article class="promo-card sale"><span>LIMITED TIME</span><h2>60% OFF</h2><p>Festive styles from ₹2,500</p></article>
+      <article class="promo-card bundle"><span>FESTIVE DEAL</span><h2>BUY 3 GET 4</h2><p>Pick your favourites and celebrate more.</p></article>
+      <article class="promo-card whatsapp"><span>QUICK ORDER</span><h2>Order on WhatsApp</h2><p>Choose a design → send your order → we confirm.</p></article>
+    </section>
+
+    <section class="collection section" id="collection" aria-labelledby="collection-title">
+      <div class="section-head"><div><p class="eyebrow">SHOP THE EDIT</p><h2 id="collection-title">Chaniya Choli Collection</h2></div><div class="controls"><label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Search designs..." aria-label="Search designs"></label><select id="priceFilter" aria-label="Filter by price"><option value="all">All prices</option><option value="2500">₹2,500</option><option value="2700">₹2,700</option><option value="3000">₹3,000</option></select></div></div>
+      <div class="collection-meta"><span id="resultCount">50 designs</span><span>Free to browse • Order via WhatsApp</span></div>
+      <div class="product-grid" id="productGrid"></div><button class="load-more" id="loadMore" type="button">Load more</button>
+    </section>
+
+    <section class="karigar-story-redesign" id="about" aria-labelledby="story-title">
+      <div class="karigar-story-redesign__frame">
+        <div class="karigar-story-redesign__photo">
+          <img src="story-reference-left.png" alt="Model in an embroidered burgundy Chaniya Choli">
+          <span class="karigar-story-redesign__photo-note">Crafted with<br>celebration in mind</span>
+        </div>
+        <div class="karigar-story-redesign__content">
+          <span class="karigar-story-redesign__ornament" aria-hidden="true"></span>
+          <p class="karigar-story-redesign__eyebrow">The Karigar</p>
+          <h2 id="story-title">Crafted for<br><em>celebrations.</em></h2>
+          <p class="karigar-story-redesign__copy">We create festive Chaniya Cholis that bring together traditional craftsmanship, colour and contemporary styling — made for celebrations that deserve to be remembered.</p>
+          <div class="karigar-story-redesign__facts" aria-label="The Karigar highlights">
+            <div><strong>50+</strong><span>Live Designs</span></div>
+            <div><strong>60%</strong><span>Sale Offer</span></div>
+            <div><strong>WA</strong><span>Direct Ordering</span></div>
+          </div>
+          <a class="karigar-story-redesign__button" href="#collection">Explore Collection <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section" id="reviews" aria-labelledby="reviews-title">
+      <div class="section-head centered"><p class="eyebrow">The Karigar'S COMMUNITY</p><h2 id="reviews-title">Reviews that make us smile</h2></div>
+      <div class="review-grid"><article class="review"><div class="stars" aria-label="5 stars">★★★★★</div><p>“The colours were even prettier in person. Loved the mirror-work and the fit.”</p><strong>— Riya S.</strong><span>Verified customer</span></article><article class="review"><div class="stars" aria-label="5 stars">★★★★★</div><p>“Ordering on WhatsApp was super easy. The response was quick and helpful.”</p><strong>— Kavya M.</strong><span>Verified customer</span></article><article class="review"><div class="stars" aria-label="5 stars">★★★★★</div><p>“Beautiful festive look and exactly what I wanted for Navratri. Highly recommend.”</p><strong>— Neha P.</strong><span>Verified customer</span></article></div>
+    </section>
+
+    <section class="bottom-editorial" id="contact" aria-labelledby="contact-title"><div class="bottom-editorial-content"><p class="eyebrow">The Karigar</p><h2 id="contact-title">Indian Craft.<br><em>Always in Style.</em></h2><p class="bottom-copy">Discover handcrafted Chaniya Cholis made for Navratri, weddings, festive evenings and every moment worth celebrating.</p><div class="bottom-actions"><a class="btn bottom-dark-btn" href="https://wa.me/917413902258?text=Hi%20The%20karigar%27s%2C%20I%27d%20like%20to%20place%20an%20order." target="_blank" rel="noopener">Order on WhatsApp ↗</a><a class="btn bottom-outline-btn" href="#collection">Explore Collection</a></div><div class="bottom-signature"><span>Crafted</span><span>with tradition</span><i></i></div></div><div class="bottom-mandala mandala-one" aria-hidden="true"></div><div class="bottom-mandala mandala-two" aria-hidden="true"></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-brand"><span class="footer-mark">TK</span><div><b>The Karigar</b><span>Handcrafted Festive Wear</span></div></div><div class="footer-links"><a href="#collection">Collection</a><a href="#about">Our Story</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></div><div class="footer-contact"><span>Order directly</span><a href="https://wa.me/917413902258" target="_blank" rel="noopener">+91 74139 02258</a></div><div class="footer-bottom"><span>© 2026 The Karigar</span><span>Made for festive moments.</span></div></footer>
+
+  <div class="modal-backdrop" id="productModal" role="dialog" aria-modal="true" aria-label="Product details"><div class="modal product-modal"><button class="modal-close" type="button" data-close aria-label="Close product details">×</button><div id="modalContent"></div></div></div>
+  <div class="modal-backdrop" id="cartModal" role="dialog" aria-modal="true" aria-label="Shopping bag"><div class="modal cart-modal"><button class="modal-close" type="button" data-close aria-label="Close bag">×</button><p class="eyebrow">YOUR BAG</p><h2>Order on WhatsApp</h2><div id="cartItems"></div><div class="cart-total"><span>Total</span><strong id="cartTotal">₹0</strong></div><button class="btn primary full" id="whatsappOrder" type="button">Send Order on WhatsApp ↗</button><p class="tiny">We'll send selected designs, quantities and total in your WhatsApp message. Final availability, size and delivery charges are confirmed by the store.</p></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <a
+  class="floating-wa"
+  href="https://wa.me/917413902258"
+  target="_blank"
+  rel="noopener"
+  aria-label="WhatsApp"
+>
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M20.52 3.48A11.83 11.83 0 0 0 12.08 0C5.56 0 .25 5.3.25 11.83c0 2.08.54 4.1 1.56 5.89L.15 24l6.43-1.68a11.8 11.8 0 0 0 5.5 1.36h.01c6.52 0 11.83-5.3 11.83-11.83 0-3.16-1.23-6.13-3.4-8.37ZM12.09 21.7h-.01a9.84 9.84 0 0 1-5.02-1.38l-.36-.21-3.81.99 1.02-3.72-.23-.38a9.84 9.84 0 1 1 8.41 4.7Zm5.4-7.38c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.28-.47-2.44-1.5-.9-.8-1.5-1.78-1.68-2.08-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.87 1.22 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.5 1.69.64.71.23 1.36.2 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"/>
+  </svg>
+</a>
+  <script src="script.js"></script>
+</body>
+</html>
